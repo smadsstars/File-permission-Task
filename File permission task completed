@@ -2,12 +2,12 @@ azarlinux@DESKTOP-BOB8E4I:~$ pwd
 /home/azarlinux
 azarlinux@DESKTOP-BOB8E4I:~$ touch /home/azarlinux/demo.txt
 azarlinux@DESKTOP-BOB8E4I:~$ ls
-demo.txt  my_folder
+demo.txt  http_status.sh  input.txt  my_folder
 azarlinux@DESKTOP-BOB8E4I:~$ pwd
 /home/azarlinux
 azarlinux@DESKTOP-BOB8E4I:~$ chmod u=rwx,g=rw,o=r /home/azarlinux/demo.txt
 azarlinux@DESKTOP-BOB8E4I:~$ ls
-demo.txt  my_folder
+demo.txt  http_status.sh  input.txt  my_folder
 azarlinux@DESKTOP-BOB8E4I:~$ ls -l demo.txt
--rwxrw-r-- 1 azarlinux azarlinux 0 Feb  5 08:43 demo.txt
+-rwxrw-r-- 1 azarlinux azarlinux 0 Feb  6 10:11 demo.txt
 azarlinux@DESKTOP-BOB8E4I:~$
